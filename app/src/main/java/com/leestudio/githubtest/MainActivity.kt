@@ -10,5 +10,6 @@ class MainActivity : AppCompatActivity() {
         
         supportActionBar?.title="GitHub TEST"
         var a:Int=10
+        supportActionBar?.subtitle="sub title : $a"
     }
 }
